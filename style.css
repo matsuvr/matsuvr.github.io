@@ -1,0 +1,48 @@
+/* Body and Background */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Titles and Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+}
+
+/* Links */
+a {
+    color: #6699cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #336699;
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: #6699cc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #336699;
+}
+
+/* Customize the container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
