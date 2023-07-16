@@ -2,44 +2,70 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>オープンコンテンツコーパスプロジェクト</title>
-    <!-- Bootstrap CSS CDN for a modern look and responsiveness -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- Custom CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <section id="title">
-            <h1 class="display-4 my-4">オープンコンテンツコーパスプロジェクト</h1>
-        </section>
-        
-        <section id="overview">
-            <h2 class="my-3">プロジェクト概要</h2>
-            <p>ゲームやアニメのシナリオなど、キャラクター同士の会話が中心となったテキストデータを、オープンなライセンスで公開するプロジェクトです。
-                大規模言語モデルの学習用途に使うことを想定していますが、研究など様々な用途への利用も可能です。
-                Apache License 2.0、MIT License、CC-BY-SAなど、商用利用可、再配布可、改変可のライセンスでコンテンツのデータを提供することを意図しています。
-            </p>
-        </section>
-        
-        <section id="datalinks">
-            <h2 class="my-3">データリンク集</h2>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">オープンコンテンツコーパスプロジェクト</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#overview">プロジェクト概要</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#datalinks">データリンク集</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">問い合わせ先</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-primary text-white text-center">
+        <div class="container text-center">
+            <h1 class="display-4">Welcome to Open Access Corpus Project</h1>
+            <p class="lead">コンテンツに特化したコーパスデータの公開を目的とするプロジェクトです</p>
+            <a href="#overview" class="btn btn-light btn-lg">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-5">
+        <div class="container">
+            <h2>プロジェクト概要</h2>
+            <p>ゲームやアニメのシナリオなど、キャラクター同士の会話が中心となったテキストデータを、オープンなライセンスで公開するプロジェクトです。 大規模言語モデルの学習用途に使うことを想定していますが、研究など様々な用途への利用も可能です。 Apache License 2.0、MIT License、CC-BY-SAなど、商用利用可、再配布可、改変可のライセンスでコンテンツのデータを提供することを意図しています。</p>
+        </div>
+    </section>
+
+    <!-- Data Links Section -->
+    <section id="datalinks" class="py-5 bg-light">
+        <div class="container">
+            <h2>データリンク集</h2>
             <ul>
                 <li><a href="https://github.com/matsuvr/characterconversationdataset">character conversation dataset</a></li>
                 <li><a href="https://github.com/matsuvr/OjousamaTalkScriptDataset">OjousamaTalkScriptDataset</a></li>
                 <!-- その他のデータリンクを追加します -->
             </ul>
-        </section>
-        
-        <section id="contact">
-            <h2 class="my-3">問い合わせ先</h2>
-            <p>Email: m.yuichi+opencontentsdataset@gmail.com</p>
-        </section>
-    </div>
-    
-    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>問い合わせ先</h2>
+            <p>m.yuichi+opencontentsdataset@gmail.com</p>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

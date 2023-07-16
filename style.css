@@ -46,3 +46,29 @@ button:hover {
     margin: 0 auto;
     padding: 10px;
 }
+
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 0;
+    background: #6699cc;
+    color: white;
+}
+
+/* Content Sections */
+section {
+    padding: 60px 0;
+}
+
+section.bg-light {
+    background-color: #f8f9fa;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
